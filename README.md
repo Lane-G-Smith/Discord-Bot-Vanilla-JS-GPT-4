@@ -1,1 +1,1 @@
-# DiscordBot-GPT-3.5-Turbo
+# VanillaDiscordBot-GPT-3.5-Turbo
