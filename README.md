@@ -32,7 +32,7 @@ https://nodejs.org/en/
 ```
 ## install git:
 ```sh
-https://git-scm.com/downloads & https://nodejs.org/en/
+https://git-scm.com/downloads
 ```
 ## create a new folder, open it in terminal, install git:
 ```sh
