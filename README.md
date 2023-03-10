@@ -48,7 +48,7 @@
    </tr>
  </table>
 
-# GPT-3.5-Turbo-Bot
+# GPT-3.5-Turbo-Bot installation and deloyment Instructions
 
 ### Get the bot 'shell' from Discord. It's free, and it takes 5 minutes
 ```sh
