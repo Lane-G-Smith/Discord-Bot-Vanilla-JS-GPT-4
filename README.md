@@ -30,7 +30,7 @@
     <td align="center">
     <p align="center">A tool for answering random trivia facts.
       </p>
-        <img src="https://photos.smugmug.com/photos/i-xqsr4H4/0/97083eec/X2/i-xqsr4H4-X2.png"
+        <img src="https://photos.smugmug.com/photos/i-525GmFg/0/066ec795/X2/i-525GmFg-X2.png"
         height="60"
         />
       </td>
@@ -39,7 +39,7 @@
  <table align="center">
   <tr>
     <td align="center">
-    <p align="center">A poet and story teller.
+    <p align="center">A friendly assistant.
       </p>
         <img src="https://photos.smugmug.com/photos/i-xqsr4H4/0/97083eec/X2/i-xqsr4H4-X2.png"
         height="60"
