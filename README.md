@@ -68,9 +68,13 @@ TYPE THIS EXACTLY, IT IS CASE SENSITIVE: OPENAI_API_KEY=your_unique_API_key_here
 ```sh
 The characteristics of your AI and how to answer questions, one example question, one example answer.
 ```
-### To host the bot locally, open project terminal and run a node server
+### To host the bot locally, open project in terminal and run node
 ```sh
 node index.js
+```
+### To host the bot locally and keep it running in the background indefinitely, open project in terminal and run PM2
+```sh
+pm2 start index.js
 ```
 ### Congradulations, your bot should now be live & confirmation should be logged in the terminal. Use your personal link from the Discord developer portal to invite your bot to a Discord server
 ```sh
