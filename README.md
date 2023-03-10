@@ -26,47 +26,47 @@ https://discord.com/developers/applications
 ```sh
 https://platform.openai.com/signup
 ```
-## install node.js
+## Install node.js
 ```sh
 https://nodejs.org/en/
 ```
-## install git:
+## Install git:
 ```sh
 https://git-scm.com/downloads
 ```
-## create a new folder, open it in terminal, install git:
+## Create a new folder and navigate to it in terminal to set up git
 ```sh
 git init
 ```
-## navigate to new git folder in terminal and clone this repository: 
+## Navigate to new git folder in terminal and clone this repository: 
 ```sh
 git clone https://github.com/Lane-G-Smith/VanillaDiscordBot-GPT-3.5-Turbo.git
 ```
-## navigate to VanillaDiscordBotGPT-3.5-Turbo folder and install dependencies:
+## Navigate to VanillaDiscordBotGPT-3.5-Turbo folder and install dependencies:
 ```sh
 npm install
 ```
-## create new file in VanillaDiscordBotGPT-3.5-Turbo folder and name it .env
+## Create new file in VanillaDiscordBotGPT-3.5-Turbo folder and name it .env
 ```sh
 
 ```
-## place your secret Discord bot token from the first step into the .env file:
+## Place your secret Discord bot token from the first step into the .env file:
 ```sh
 TYPE THIS EXACTLY, IT IS CASE SENSITIVE: TOKEN=your_unique_token_here
 ```
-## place your secret OpenAI API key from the second step into the .env file:
+## Place your secret OpenAI API key from the second step into the .env file:
 ```sh
 TYPE THIS EXACTLY, IT IS CASE SENSITIVE: OPENAI_API_KEY=your_unique_API_key_here
 ```
-## to host the bot locally, open project terminal and run a node server
+## To host the bot locally, open project terminal and run a node server
 ```sh
 node index.js
 ```
-## congradulations, your bot should now be live & confirmation should be logged in the terminal
+## Congradulations, your bot should now be live & confirmation should be logged in the terminal
 ```sh
 
 ```
-## use your personal link from the Discord developer portal to invite your bot to a Discord server
+## Use your personal link from the Discord developer portal to invite your bot to a Discord server
 ```sh
 https://discord.com/developers/applications
 ```
