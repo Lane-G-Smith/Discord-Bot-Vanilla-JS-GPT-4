@@ -64,7 +64,7 @@ TYPE THIS EXACTLY, IT IS CASE SENSITIVE: TOKEN=your_unique_token_here
 ```sh
 TYPE THIS EXACTLY, IT IS CASE SENSITIVE: OPENAI_API_KEY=your_unique_API_key_here
 ```
-### Replace three lines in the code (40,41,42, self explanatory when you look at it) to personalize functionality
+### Modify three lines in the code (40,41,42, self explanatory when you look at it) to personalize functionality
 ```sh
 The characteristics of your AI and how to answer questions, one example question, one example answer.
 ```
