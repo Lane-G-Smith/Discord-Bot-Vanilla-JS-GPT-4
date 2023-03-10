@@ -22,7 +22,7 @@
 ```sh
 https://discord.com/developers/applications
 ```
-## Set up an account with OpenAI. (This is the exact same OpenAI account that other services upcharge for)
+## Go to OpenAI and open an account. (This is the exact same account that other services upcharge for)
 ```sh
 https://platform.openai.com/signup
 ```
