@@ -34,6 +34,13 @@ https://nodejs.org/en/
 ```sh
 https://git-scm.com/downloads
 ```
+### Install PM2 to host your bot from your own computer in the background indefinitely. 
+```sh
+https://pm2.keymetrics.io/
+```
+```sh
+npm install pm2 -g
+```
 ### Create a new folder and navigate to it in terminal to set up git
 ```sh
 git init
