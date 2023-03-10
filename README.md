@@ -108,7 +108,7 @@ node index.js
 ```sh
 pm2 start index.js
 ```
-### Congradulations, your bot should now be live & confirmation should be logged in the terminal. Use your personal link from the Discord developer portal to invite your bot to a Discord server
+### congratulations, your bot should now be live & confirmation should be logged in the terminal. Use your personal link from the Discord developer portal to invite your bot to a Discord server
 ```sh
 https://discord.com/developers/applications
 ```
