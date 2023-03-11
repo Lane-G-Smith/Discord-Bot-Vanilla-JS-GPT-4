@@ -1,4 +1,4 @@
-<h1 align="center">Vanilla Discord Bot GPT-3.5-Turbo</h1>
+<h1 align="center">Vanilla-Discord-Bot-GPT-3.5-Turbo</h1>
 <table align="center">
   <tr>
     <td align="center" height="108" width="108">
