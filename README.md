@@ -104,7 +104,11 @@ The characteristics of your AI and how to answer questions, one example question
 ```sh
 node index.js
 ```
-### To host the bot locally and keep it running in the background indefinitely, open project in terminal and run PM2
+### To host the bot locally and keep it running in the background indefinitely, install PM2
+```sh
+npm install pm2 -g
+```
+### run your bot locally using pm2
 ```sh
 pm2 start index.js
 ```
