@@ -54,7 +54,7 @@
 ```sh
 https://discord.com/developers/applications
 ```
-### Go to OpenAI and open an account. (This is the exact same account that other services upcharge for)
+### Go to OpenAI and open an account
 ```sh
 https://platform.openai.com/signup
 ```
@@ -66,7 +66,7 @@ https://nodejs.org/en/
 ```sh
 https://git-scm.com/downloads
 ```
-### Install PM2 to host your bot from your own computer in the background indefinitely. 
+### Install PM2 to host your bot from your own computer in the background indefinitely
 ```sh
 https://pm2.keymetrics.io/
 ```
@@ -77,7 +77,7 @@ npm install pm2 -g
 ```sh
 git init
 ```
-### Navigate to new git folder in terminal and clone this repository: 
+### Navigate to new git folder in terminal and clone this repository
 ```sh
 git clone https://github.com/Lane-G-Smith/VanillaDiscordBot-GPT-3.5-Turbo.git
 ```
@@ -86,17 +86,17 @@ git clone https://github.com/Lane-G-Smith/VanillaDiscordBot-GPT-3.5-Turbo.git
 npm install
 ```
 ### Create new file in VanillaDiscordBotGPT-3.5-Turbo folder and name it .env
-### Place your secret Discord bot token from the first step into the .env file:
+### Place your secret Discord bot token from the first step into the .env file
 ```sh
 TYPE THIS EXACTLY, IT IS CASE SENSITIVE: TOKEN=your_unique_token_here
 ```
-### Place your secret OpenAI API key from the second step into the .env file:
+### Place your secret OpenAI API key from the second step into the .env file
 ```sh
 TYPE THIS EXACTLY, IT IS CASE SENSITIVE: OPENAI_API_KEY=your_unique_API_key_here
 ```
 ### Modify three lines in the code (40,41,42, self explanatory when you look at it) to personalize functionality
 ```sh
-The characteristics of your AI and how to answer questions, one example question, one example answer.
+The characteristics of your AI and how to answer questions, one example question, one example answer
 ```
 ### To host the bot locally, open project in terminal and run node
 ```sh
