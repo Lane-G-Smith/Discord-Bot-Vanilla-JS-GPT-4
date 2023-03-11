@@ -20,7 +20,7 @@
     <p align="center">Give personality to a virtual friend in your gaming server
       </p>
         <img src="https://photos.smugmug.com/photos/i-xqsr4H4/0/97083eec/X2/i-xqsr4H4-X2.png"
-        height="65"
+        height="56"
         />
       </td>
    </tr>
@@ -31,7 +31,7 @@
     <p align="center">Get answers to random trivia from your pc or phone (Discord Mobile)
       </p>
         <img src="https://photos.smugmug.com/photos/i-525GmFg/0/066ec795/X2/i-525GmFg-X2.png"
-        height="65"
+        height="56"
         />
       </td>
    </tr>
@@ -42,7 +42,7 @@
     <p align="center">Create your very own friendly peronal assistant
       </p>
         <img src="https://photos.smugmug.com/photos/i-JFd9zrQ/0/cbe369dc/X2/i-JFd9zrQ-X2.png"
-        height="65"
+        height="56"
         />
       </td>
    </tr>
