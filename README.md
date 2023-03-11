@@ -62,7 +62,7 @@ https://platform.openai.com/signup
 ```sh
 https://nodejs.org/en/
 ```
-### Install git:
+### Install git
 ```sh
 https://git-scm.com/downloads
 ```
@@ -81,7 +81,7 @@ git init
 ```sh
 git clone https://github.com/Lane-G-Smith/VanillaDiscordBot-GPT-3.5-Turbo.git
 ```
-### Navigate to VanillaDiscordBotGPT-3.5-Turbo folder and install dependencies:
+### Navigate to VanillaDiscordBotGPT-3.5-Turbo folder and install dependencies
 ```sh
 npm install
 ```
