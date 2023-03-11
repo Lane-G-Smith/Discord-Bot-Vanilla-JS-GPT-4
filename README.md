@@ -14,34 +14,34 @@
      </td>
    </tr>
  </table>
-<table align="center">
+<table align="start">
   <tr>
     <td align="center">
     <p align="center">Give personality to a virtual friend in your gaming server
       </p>
-        <img src="https://photos.smugmug.com/photos/i-xqsr4H4/0/97083eec/X2/i-xqsr4H4-X2.png"
+        <img src="https://photos.smugmug.com/photos/i-m2ZrXcL/0/fd98caa8/M/i-m2ZrXcL-M.png"
         height="56"
         />
       </td>
    </tr>
  </table>
- <table align="center">
+ <table align="start">
   <tr>
     <td align="center">
     <p align="center">Get answers to random trivia from your pc or phone (Discord Mobile)
       </p>
-        <img src="https://photos.smugmug.com/photos/i-525GmFg/0/066ec795/X2/i-525GmFg-X2.png"
+        <img src="https://photos.smugmug.com/photos/i-FzDPz2B/0/d1a6a56b/L/i-FzDPz2B-L.png"
         height="56"
         />
       </td>
    </tr>
  </table>
- <table align="center">
+ <table align="start">
   <tr>
     <td align="center">
     <p align="center">Create your very own friendly peronal assistant
       </p>
-        <img src="https://photos.smugmug.com/photos/i-JFd9zrQ/0/cbe369dc/X2/i-JFd9zrQ-X2.png"
+        <img src="https://photos.smugmug.com/photos/i-bDkZn6x/0/47284382/S/i-bDkZn6x-S.png"
         height="56"
         />
       </td>
@@ -86,8 +86,6 @@ git clone https://github.com/Lane-G-Smith/VanillaDiscordBot-GPT-3.5-Turbo.git
 npm install
 ```
 ### Create new file in VanillaDiscordBotGPT-3.5-Turbo folder and name it .env
-```sh
-```
 ### Place your secret Discord bot token from the first step into the .env file:
 ```sh
 TYPE THIS EXACTLY, IT IS CASE SENSITIVE: TOKEN=your_unique_token_here
