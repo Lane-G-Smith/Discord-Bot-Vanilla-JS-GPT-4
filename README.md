@@ -1,4 +1,4 @@
-<h1 align="center">Vanilla-Discord-Bot-GPT-3.5-Turbo</h1>
+<h1 align="center">Vanilla-JS-Discord-Bot-GPT-3.5-Turbo</h1>
 <table align="center">
   <tr>
     <td align="center" height="108" width="108">
@@ -72,13 +72,13 @@ git init
 ```
 ### Navigate to new git folder in terminal and clone this repository
 ```sh
-git clone https://github.com/Lane-G-Smith/VanillaDiscordBot-GPT-3.5-Turbo.git
+git clone https://github.com/Lane-G-Smith/Vanilla-JS-DiscordBot-GPT-3.5-Turbo.git
 ```
-### Navigate to VanillaDiscordBotGPT-3.5-Turbo folder and install dependencies
+### Navigate to Vanilla-JS-DiscordBotGPT-3.5-Turbo folder and install dependencies
 ```sh
 npm install
 ```
-### Create new file in VanillaDiscordBotGPT-3.5-Turbo folder and name it .env
+### Create new file in Vanilla-JS-DiscordBotGPT-3.5-Turbo folder and name it .env
 ### Place your secret Discord bot token from the first step into the .env file
 ```sh
 TYPE THIS EXACTLY, IT IS CASE SENSITIVE: TOKEN=your_unique_token_here
