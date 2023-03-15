@@ -72,7 +72,7 @@ git init
 ```
 ### Navigate to new git folder in terminal and clone this repository
 ```sh
-git clone https://github.com/Lane-G-Smith/Vanilla-JS-DiscordBot-GPT-3.5-Turbo.git
+git clone https://github.com/Lane-G-Smith/Vanilla-JS-Discord-Bot-GPT-3.5-Turbo.git
 ```
 ### Navigate to Vanilla-JS-DiscordBotGPT-3.5-Turbo folder and install dependencies
 ```sh
