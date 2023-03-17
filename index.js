@@ -44,7 +44,7 @@ client.on('messageCreate', async function (message) {
         ]});
         message.reply(`${completion.data.choices[0].message.content}`) 
     }   catch (error) {
-            console.log(error)
+            message.reply(`${error}`)
             }
 });
 // use token from env file to log in
