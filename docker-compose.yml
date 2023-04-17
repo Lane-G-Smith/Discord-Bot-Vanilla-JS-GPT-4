@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  monstro:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: monstro:latest
+    container_name: monstro
+    restart: unless-stopped
+    env_file:
+      - .env

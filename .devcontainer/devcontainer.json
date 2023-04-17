@@ -1,0 +1,35 @@
+{
+    "name": "Node 18-alpine",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "search.exclude": {
+                    "**/node_modules": true,
+                    "dist/**": true
+                },
+                "terminal.integrated.profiles.linux": {
+                    "zsh": {
+                        "path": "zsh",
+                        "args:": [
+                            "-l"
+                        ]
+                    }
+                },
+                "terminal.integrated.profiles.windows": {
+                    "zsh": {
+                        "path": "zsh",
+                        "args:": [
+                            "-l"
+                        ]
+                    }
+                },
+                "terminal.integrated.defaultProfile.windows": "zsh",
+                "terminal.integrated.defaultProfile.linux": "zsh"
+            }
+        }
+    },
+    "postCreateCommand": "yarn install"
+}

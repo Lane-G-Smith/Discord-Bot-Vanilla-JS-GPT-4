@@ -1,14 +1,15 @@
 {
-  "name": "vanilladiscordbot-gpt-3.5-turbo",
+  "name": "monstro-discord-gpt",
   "version": "1.0.0",
-  "description": "Vanilla Javascript Discord bot for interacting with OpenAI gpt-3.5-Turbo",
-  "main": "index.js",
+  "description": "Bot para discord usando openai API chamado monstro",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lane-G-Smith/VanillaDiscordBot-GPT-3.5-Turbo.git"
+    "url": "git+https://github.com/sombraSoft/monstro-discord-gpt.git"
   },
   "keywords": [
     "Discord",
@@ -17,18 +18,30 @@
     "GPT",
     "ChatGPT",
     "Javascript",
-    "Discord.js"
+    "Discord.js",
+    "Monstro"
   ],
-  "author": "Lane G Smith",
+  "author": "Sombrasoft",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Lane-G-Smith/VanillaDiscordBot-GPT-3.5-Turbo/issues"
+    "url": "https://github.com/sombraSoft/monstro-discord-gpt/issues"
   },
-  "homepage": "https://github.com/Lane-G-Smith/VanillaDiscordBot-GPT-3.5-Turbo#readme",
+  "homepage": "hhttps://github.com/sombraSoft/monstro-discord-gpt#readme",
   "dependencies": {
-    "discord.js": "^14.7.1",
-    "dotenv": "^16.0.3",
-    "node": "^19.6.1",
+    "discord-api-types": "^0.37.38",
+    "discord.js": "^14.9.0",
+    "node": "^18.15.x",
     "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.37.0",
+    "@types/node": "^18.15.x",
+    "@typescript-eslint/parser": "^5.58.0",
+    "discord-api-types": "^0.37.38",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.38.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
   }
 }
