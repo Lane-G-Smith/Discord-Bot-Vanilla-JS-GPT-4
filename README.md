@@ -80,7 +80,7 @@ git clone https://github.com/Lane-G-Smith/Vanilla-JS-Discord-Bot-GPT-3.5-Turbo.g
 ```sh
 npm install
 ```
-### Create new file in Vanilla-JS-DiscordBotGPT-3.5-Turbo folder and name it .env
+### Rename example_.env to .env
 ### Place your secret Discord bot token from the first step into the .env file
 ```sh
 TYPE THIS EXACTLY, IT IS CASE SENSITIVE: TOKEN=your_unique_token_here
