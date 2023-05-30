@@ -37,7 +37,7 @@ client.on('messageCreate', async function (message) {
         const completion = await openai.createChatCompletion({
             model: "gpt-3.5-turbo",
             messages:[
-                {"role": "system", "content": "Describe the desired AI characteristics and how questions should be answered"},
+                {"role": "system", "content": "Describe the desired AI characteristics, knowledge base, personality, how questions should be answered"},
                 {"role": "user", "content": "A sample question will go here"},
                 {"role": "assistant", "content": "An answer to the previous question will go here"},
                 {"role": "user", "content": `${message.content}`}
