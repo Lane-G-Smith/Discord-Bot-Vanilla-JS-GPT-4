@@ -83,11 +83,11 @@ npm install
 ### Rename example_.env to .env
 ### Place your secret Discord bot token from the first step into the .env file
 ```sh
-TYPE THIS EXACTLY, IT IS CASE SENSITIVE: TOKEN=your_unique_token_here
+TOKEN=your_unique_Discord_bot_token_here
 ```
 ### Place your secret OpenAI API key from the second step into the .env file
 ```sh
-TYPE THIS EXACTLY, IT IS CASE SENSITIVE: OPENAI_API_KEY=your_unique_API_key_here
+OPENAI_API_KEY=your_unique_OpenAI_API_key_here
 ```
 ### Modify three lines in the code (40,41,42, self explanatory when you look at it) to personalize functionality
 ```sh
