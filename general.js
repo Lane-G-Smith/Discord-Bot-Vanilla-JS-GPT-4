@@ -36,7 +36,7 @@ client.on("messageCreate", async function (message) {
         if (message.author.bot) return;
 
 //  must include gpt to trigger a response
-        else if (message.content.toLowerCase().includes("GPT")) {
+        else if (message.content.toLowerCase().includes("gpt-buddy")) {
 
 // AI personality & response format to user input
         const completion = await openai.createChatCompletion({
