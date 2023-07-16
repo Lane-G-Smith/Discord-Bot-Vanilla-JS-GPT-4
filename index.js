@@ -29,16 +29,20 @@ client.on('ready', () => {
     console.log(`I'M ALIVE!! LOGGED IN AS ${client.user.tag}`)
 });
 
-// function returns AI response every time text is sent to server
+// function returns AI response when the trigger word is typed the server
 client.on('messageCreate', async function (message) {
     try {
         // ignore input from the bot itself
         if (message.author.bot) return;
-        const completion = await openai.createChatCompletion({
-            model: "gpt-3.5-turbo",
+
+//  must include trigger to get a response
+        else if (message.content.toLowerCase().includes("Your-Trigger-Word")) {
+            model: "gpt-3.5-turbo-0613",
             messages:[
                 {"role": "system", "content": "Describe the desired AI characteristics, knowledge base, personality, how questions should be answered"},
                 {"role": "user", "content": "A sample question will go here"},
+                {"role": "assistant", "content": "An answer to the previous question will go here"},
+		{"role": "user", "content": "A sample question will go here"},
                 {"role": "assistant", "content": "An answer to the previous question will go here"},
                 {"role": "user", "content": `${message.content}`}
         ]});
@@ -50,3 +54,8 @@ client.on('messageCreate', async function (message) {
 // use token from env file to log in
 client.login(process.env.TOKEN);
 
+// ignore input from the bot itself
+        if (message.author.bot) return;
+
+//  must include gpt to trigger a response
+        else if (message.content.toLowerCase().includes("Your-Trigger-Word")) {
