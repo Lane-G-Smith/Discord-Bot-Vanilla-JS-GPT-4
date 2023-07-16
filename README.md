@@ -9,7 +9,7 @@
         <br /><strong>Discord.js</strong>
     </td>
     <td align="center" height="108">
-      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model GPT-3.5-Turbo by OpenAI. This bot can serve a variety of different functions by changing three simple lines of its internal prompt. No coding skills are required.
+      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model GPT-3.5-Turbo by OpenAI. This bot can serve a variety of different functions by changing a few lines of its internal prompt. No coding skills are required.
       </p>
      </td>
    </tr>
