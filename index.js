@@ -51,11 +51,29 @@ client.on('messageCreate', async function (message) {
             message.reply(`${error}`)
             }
 });
+
+// store response in data variable
+        data = (`${completion.data.choices[0].message.content}`);
+
+// less than 2000 character response
+          if (data.length < 2000) {
+          message.reply(`${data}`)
+          }
+
+// more than 2000 character response
+          else if (data.length > 2000){
+          partOne = data.substring(0,2000);
+          partTwo = data.substring(2000,4000);
+          partThree = data.substring(4000,6000);
+          message.reply(`${partOne}`);
+          message.reply(`${partTwo}`);
+          message.reply(`${partThree}`);
+          }
+
+    }} catch (error) {
+        message.reply(`${error}`);
+    }
+});
+
 // use token from env file to log in
 client.login(process.env.TOKEN);
-
-// ignore input from the bot itself
-        if (message.author.bot) return;
-
-//  must include gpt to trigger a response
-        else if (message.content.toLowerCase().includes("Your-Trigger-Word")) {
