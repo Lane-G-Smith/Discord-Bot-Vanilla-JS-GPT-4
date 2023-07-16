@@ -50,7 +50,7 @@
 
 # GPT-3.5-Turbo bot installation and deloyment Instructions
 
-# !!This bot does NOT respond to DMs, it must be in a server with you!!
+## !!This bot does NOT respond to DMs, it must be in a server with you!!
 
 ### Get the bot 'shell' from Discord. It's free, and it takes 5 minutes
 ```sh
@@ -89,15 +89,15 @@ TOKEN=your_unique_Discord_bot_token_here
 ```sh
 OPENAI_API_KEY=your_unique_OpenAI_API_key_here
 ```
-### Modify a few lines of the code (40,41,42, self-explanatory when you look at it) to personalize the functionality
+### Modify a few lines of the code (46-59, self-explanatory when you look at it) to personalize the functionality
 ```sh
 The characteristics of your AI and how to answer questions, example questions, example answers
 ```
-### Set a trigger word that you want to prompt a response
+### Set a trigger word that you want to prompt a response (line 39)
 ```sh
-set your trigger word
+replace "Your-Trigger-Word" with whatever you want
 ```
-### To host the bot locally, open project in terminal and run node
+### To host the bot locally, open the project in the terminal and run node
 ```sh
 node index.js
 ```
