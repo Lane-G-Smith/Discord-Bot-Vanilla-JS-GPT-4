@@ -1,56 +1,66 @@
-// import bot token from .env file
-const TOKEN = require('dotenv').config();
+// import Discord bot token from .env file
+const TOKEN = require("dotenv").config();
 
 // import discord.js module
-const {Client, GatewayIntentBits, TextChannel, Message} = require('discord.js');
+const {Client,GatewayIntentBits} = require("discord.js");
 
 // import openai module, key, new config
 const { Configuration, OpenAIApi } = require("openai");
-const configuration = new Configuration({
-apiKey: process.env.OPENAI_API_KEY,});
+const configuration = new Configuration({apiKey: process.env.OPENAI_API_KEY,});
 const openai = new OpenAIApi(configuration);
 
 // configure Discord bot permissions(intents)
-const client = new Client({intents: 
-    [
-    GatewayIntentBits.Guilds, 
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages,
-	GatewayIntentBits.MessageContent,
+    GatewayIntentBits.MessageContent,
     GatewayIntentBits.GuildEmojisAndStickers,
     GatewayIntentBits.GuildWebhooks,
     GatewayIntentBits.GuildMessageReactions,
-    GatewayIntentBits.GuildMessageTyping, 
+    GatewayIntentBits.GuildMessageTyping,
     GatewayIntentBits.GuildScheduledEvents,
-    ],
+  ],
 });
 
 // console log bot startup
-client.on('ready', () => {
-    console.log(`I'M ALIVE!! LOGGED IN AS ${client.user.tag}`)
+client.on("ready", () => {
+  console.log(`I'M ALIVE!! LOGGED IN AS ${client.user.tag}`);
 });
 
-// function returns AI response when the trigger word is typed the server
-client.on('messageCreate', async function (message) {
+// function returns AI response every time text is sent to server
+client.on("messageCreate", async function (message) {
     try {
-        // ignore input from the bot itself
+
+// ignore input from the bot itself
         if (message.author.bot) return;
 
-//  must include trigger to get a response
+//  must include gpt to trigger a response
         else if (message.content.toLowerCase().includes("Your-Trigger-Word")) {
+
+// AI personality & response format to user input
+        const completion = await openai.createChatCompletion({
             model: "gpt-3.5-turbo-0613",
-            messages:[
-                {"role": "system", "content": "Describe the desired AI characteristics, knowledge base, personality, how questions should be answered"},
-                {"role": "user", "content": "A sample question will go here"},
-                {"role": "assistant", "content": "An answer to the previous question will go here"},
-		{"role": "user", "content": "A sample question will go here"},
-                {"role": "assistant", "content": "An answer to the previous question will go here"},
-                {"role": "user", "content": `${message.content}`}
-        ]});
-        message.reply(`${completion.data.choices[0].message.content}`) 
-    }   catch (error) {
-            message.reply(`${error}`)
-            }
-});
+            messages:[{
+            role:"system",
+            content:"Describe the desired AI characteristics, knowledge base, personality, how questions should be answered",},
+            {
+            role:"user",
+            content:"A sample question will go here"},{
+            role:"assistant",
+            content:"Desired answer to the previous question will go here"},{
+            role:"user",
+            content:"A sample question will go here"},{
+            role:"assistant",
+            content:"Desired answer to the previous question will go here"},{
+            role:"user",
+            content:"A sample question will go here"},{
+            role:"assistant",
+            content:"Desired answer to the previous question will go here"},{
+            role:"user",
+            content:`${message}`},
+            ],
+        });
 
 // store response in data variable
         data = (`${completion.data.choices[0].message.content}`);
@@ -77,3 +87,4 @@ client.on('messageCreate', async function (message) {
 
 // use token from env file to log in
 client.login(process.env.TOKEN);
+
