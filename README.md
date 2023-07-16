@@ -89,9 +89,13 @@ TOKEN=your_unique_Discord_bot_token_here
 ```sh
 OPENAI_API_KEY=your_unique_OpenAI_API_key_here
 ```
-### Modify three lines in the code (40,41,42, self explanatory when you look at it) to personalize functionality
+### Modify a few lines of the code (40,41,42, self-explanatory when you look at it) to personalize the functionality
 ```sh
-The characteristics of your AI and how to answer questions, one example question, one example answer
+The characteristics of your AI and how to answer questions, example questions, example answers
+```
+### Set a trigger word that you want to prompt a response
+```sh
+set your trigger word
 ```
 ### To host the bot locally, open project in terminal and run node
 ```sh
