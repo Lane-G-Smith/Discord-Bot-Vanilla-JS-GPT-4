@@ -9,7 +9,7 @@
         <br /><strong>Discord.js</strong>
     </td>
     <td align="center" height="108">
-      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model GPT-3.5-Turbo by OpenAI. This bot can serve a variety of different functions by changing three simple lines of it's internal prompt. No coding skills required.
+      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model GPT-3.5-Turbo by OpenAI. This bot can serve a variety of different functions by changing three simple lines of its internal prompt. No coding skills are required.
       </p>
      </td>
    </tr>
@@ -39,7 +39,7 @@
  <table align="start">
   <tr>
     <td align="center">
-    <p align="center">Create your very own friendly peronal assistant
+    <p align="center">Create your very own friendly personal assistant
       </p>
         <img src="https://photos.smugmug.com/photos/i-bDkZn6x/0/47284382/S/i-bDkZn6x-S.png"
         height="56"
@@ -48,7 +48,7 @@
    </tr>
  </table>
 
-# GPT-3.5-Turbo bot installation and deloyment Instructions
+# GPT-3.5-Turbo bot installation and deployment Instructions
 
 ## !!This bot does NOT respond to DMs, it must be in a server with you!!
 
@@ -68,15 +68,15 @@ https://nodejs.org/en/
 ```sh
 https://git-scm.com/downloads
 ```
-### Create a new folder and navigate to it in terminal to set up git
+### Create a new folder and navigate to it in the terminal to set up git
 ```sh
 git init
 ```
-### Navigate to new git folder in terminal and clone this repository
+### Navigate to the new git folder in the terminal and clone this repository
 ```sh
 https://github.com/Lane-G-Smith/Discord-Bot-Vanilla-JS-GPT3.5-Turbo-0613.git
 ```
-### Navigate to Vanilla-JS-DiscordBotGPT-3.5-Turbo folder and install dependencies
+### Navigate to Discord-Bot-Vanilla-JS-GPT3.5-Turbo-0613 folder and install dependencies
 ```sh
 npm install
 ```
@@ -105,11 +105,11 @@ node index.js
 ```sh
 npm install pm2 -g
 ```
-### run your bot locally using pm2 https://pm2.keymetrics.io/
+### Run your bot locally using pm2 https://pm2.keymetrics.io/
 ```sh
 pm2 start index.js
 ```
-### congratulations, your bot should now be live & confirmation should be logged in the terminal. Use your personal link from the Discord developer portal to invite your bot to a Discord server
+### Congratulations, your bot should now be live & confirmation should be logged in the terminal. Use your personal link from the Discord developer portal to invite your bot to a Discord server
 ```sh
 https://discord.com/developers/applications
 ```
