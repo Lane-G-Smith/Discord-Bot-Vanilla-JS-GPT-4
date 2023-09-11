@@ -40,7 +40,7 @@ client.on("messageCreate", async function (message) {
 
 // AI personality & response format to user input
         const completion = await openai.createChatCompletion({
-            model: "gpt-3.5-turbo-0613",
+            model: "gpt-4",
             messages:[{
             role:"system",
             content:"Describe the desired AI characteristics, knowledge base, personality, how questions should be answered",},
