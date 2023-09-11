@@ -1,4 +1,4 @@
-<h1 align="center">Discord-Bot-Vanilla-JS-GPT3.5-Turbo-0613</h1>
+<h1 align="center">Discord-Bot-Vanilla-JS-GPT-4</h1>
 <table align="center">
   <tr>
     <td align="center" height="108" width="108">
@@ -9,7 +9,7 @@
         <br /><strong>Discord.js</strong>
     </td>
     <td align="center" height="108">
-      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model GPT-3.5-Turbo by OpenAI. This bot can serve a variety of different functions by changing a few lines of its internal prompt. No coding skills are required.
+      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model GPT-4 by OpenAI. This bot can serve a variety of different functions by changing a few lines of its internal prompt. No coding skills are required.
       </p>
      </td>
    </tr>
@@ -28,7 +28,7 @@
  <table align="start">
   <tr>
     <td align="center">
-    <p align="center">Get answers to random trivia from your pc or phone (Discord Mobile)
+    <p align="center">Get answers to random trivia from your PC or phone (Discord Mobile)
       </p>
         <img src="https://photos.smugmug.com/photos/i-FzDPz2B/0/d1a6a56b/L/i-FzDPz2B-L.png"
         height="56"
@@ -48,7 +48,7 @@
    </tr>
  </table>
 
-# GPT-3.5-Turbo bot installation and deployment Instructions
+# GPT-4 bot installation and deployment Instructions
 
 ## !!This bot does NOT respond to DMs, it must be in a server with you!!
 
@@ -74,9 +74,9 @@ git init
 ```
 ### Navigate to the new git folder in the terminal and clone this repository
 ```sh
-https://github.com/Lane-G-Smith/Discord-Bot-Vanilla-JS-GPT3.5-Turbo-0613.git
+https://github.com/Lane-G-Smith/Discord-Bot-Vanilla-JS-GPT-4.git
 ```
-### Navigate to Discord-Bot-Vanilla-JS-GPT3.5-Turbo-0613 folder and install dependencies
+### Navigate to Discord-Bot-Vanilla-JS-GPT-4 folder and install dependencies
 ```sh
 npm install
 ```
