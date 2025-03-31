@@ -2,7 +2,7 @@
 <table align="center">
   <tr>
     <td align="center" height="108" width="108">
-        <img     src="https://camo.githubusercontent.com/2993f7180d5cc3231060f66cfa1f0f65a1d09c0efd68d08d0190902ba9200d81/68747470733a2f2f7777772e7376677265706f2e636f6d2f73686f772f3335333635352f646973636f72642d69636f6e2e737667"
+        <img     src="https://www.lanesmith.info/assets/Discord.jpg"
         width="48"
         height="48"
         />
@@ -19,9 +19,6 @@
     <td align="center">
     <p align="center">Give personality to a virtual friend in your gaming server
       </p>
-        <img src="https://photos.smugmug.com/photos/i-m2ZrXcL/0/fd98caa8/M/i-m2ZrXcL-M.png"
-        height="56"
-        />
       </td>
    </tr>
  </table>
@@ -30,9 +27,6 @@
     <td align="center">
     <p align="center">Get answers to random trivia from your PC or phone (Discord Mobile)
       </p>
-        <img src="https://photos.smugmug.com/photos/i-FzDPz2B/0/d1a6a56b/L/i-FzDPz2B-L.png"
-        height="56"
-        />
       </td>
    </tr>
  </table>
@@ -41,9 +35,6 @@
     <td align="center">
     <p align="center">Create your very own friendly personal assistant
       </p>
-        <img src="https://photos.smugmug.com/photos/i-bDkZn6x/0/47284382/S/i-bDkZn6x-S.png"
-        height="56"
-        />
       </td>
    </tr>
  </table>
