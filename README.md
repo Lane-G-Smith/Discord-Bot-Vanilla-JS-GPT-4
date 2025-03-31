@@ -1,4 +1,4 @@
-<h1 align="center">Discord-Bot-Vanilla-JS-GPT-4</h1>
+<h1 align="center">Discord-Bot-Vanilla-JS-AI</h1>
 <table align="center">
   <tr>
     <td align="center" height="108" width="108">
