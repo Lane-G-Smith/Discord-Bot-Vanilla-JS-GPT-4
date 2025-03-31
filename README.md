@@ -9,7 +9,7 @@
         <br /><strong>Discord.js</strong>
     </td>
     <td align="center" height="108">
-      <p align="center">A simple vanilla javascript Discord bot for interacting with the new language model GPT-4 by OpenAI. This bot can serve a variety of different functions by changing a few lines of its internal prompt. No coding skills are required.
+      <p align="center">A simple vanilla javascript Discord bot for interacting with AI models by OpenAI. This bot can serve a variety of different functions by changing a few lines of text in it's internal prompt. No coding skills are required.
       </p>
      </td>
    </tr>
